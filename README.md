@@ -26,9 +26,10 @@ the relevant destination is an important consideration. Normalized Discounted
 Cumulative Gain (NDCG) has been used as the evaluation metric which takes care of the ranking of the
 ground truth into context.
 
+
 ## Conclusions
 
-<img width="615" alt="Screen Shot 2023-01-23 at 6 14 11 PM" src="https://user-images.githubusercontent.com/63723023/214181162-324057fd-2c7b-4b05-bd58-5e929c3eb205.png">
+<img width="781" alt="Screen Shot 2023-01-23 at 6 24 02 PM" src="https://user-images.githubusercontent.com/63723023/214183421-1b5b4bbc-d771-4efb-b13c-9dfdb6f6d4a6.png">
 
 1) Naïve Bayes gives lowest NDCG score on training and test data. It assumes that features are independent, which is not true in most cases </br>
 2) Logistic regression produces linear decision boundaries resulting in lower accuracy as compared to LightGBM / XGBoost /  ExtraTrees </br>
