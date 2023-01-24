@@ -15,16 +15,15 @@ The goal is to predict  top 5  destinations a new user is likely to book. Here
 ## Data
 
 Data consist of list of users along with their demographics, web session records, and some summary statistics and the task is to predict which country a new user's first booking destination will be. All the users in this dataset are from the USA. </br>
-There are 12 possible outcomes of the destination country: 'US', 'FR', 'CA', 'GB', 'ES', 'IT', 'PT', 'NL','DE', 'AU', 'NDF' (no destination found), and 'other'. Please note that 'NDF' is different from 'other' because 'other' means there was a booking, but is to a country not included in the list, while 'NDF' means there wasn't a booking.
+There are 12 possible outcomes of the destination country: 'US', 'FR', 'CA', 'GB', 'ES', 'IT', 'PT', 'NL','DE', 'AU', 'NDF' (no destination found), and 'other'. 
 
 Data is Available at : https://www.kaggle.com/competitions/airbnb-recruiting-new-user-bookings/data
 
 ## Metric
 
 Since the goal is to predict top 5 destinations a new user is likely to book; the rank of
-the relevant destination is an important consideration. Thus we can’t simply use
-accuracy as the classification metric. Instead we used Normalized Discounted
-Cumulative Gain (NDCG) as the evaluation metric which takes care of the ranking of the
+the relevant destination is an important consideration. Normalized Discounted
+Cumulative Gain (NDCG) has been used as the evaluation metric which takes care of the ranking of the
 ground truth into context.
 
 ## Conclusions
